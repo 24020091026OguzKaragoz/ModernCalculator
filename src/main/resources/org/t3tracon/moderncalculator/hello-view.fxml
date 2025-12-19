@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.t3tracon.moderncalculator.HelloController">
+   <children>
+      <TextField fx:id="txtFieldCurrent" alignment="CENTER_RIGHT" layoutX="12.0" layoutY="52.0" prefHeight="50.0" prefWidth="228.0" text="0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtFieldHistory" editable="false" layoutX="12.0" layoutY="12.0" prefHeight="25.0" prefWidth="228.0" />
+      <Button fx:id="btnOne" layoutX="12.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="1" />
+      <Button fx:id="btnTwo" layoutX="72.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="2" />
+      <Button fx:id="btnThree" layoutX="132.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="3" />
+      <Button fx:id="btnFour" layoutX="12.0" layoutY="185.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="4" />
+      <Button fx:id="btnFive" layoutX="72.0" layoutY="185.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="5" />
+      <Button fx:id="btnSix" layoutX="132.0" layoutY="185.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="6" />
+      <Button fx:id="btnSeven" layoutX="12.0" layoutY="245.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="7" />
+      <Button fx:id="btnEight" layoutX="72.0" layoutY="245.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="8" />
+      <Button fx:id="btnNine" layoutX="132.0" layoutY="245.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="9" />
+      <Button fx:id="btnSubtract" layoutX="192.0" layoutY="185.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="-" />
+      <Button fx:id="btnAddition" layoutX="192.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="+" />
+      <Button layoutX="192.0" layoutY="245.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="x" />
+      <Button layoutX="192.0" layoutY="305.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="÷" />
+      <Button fx:id="btnZero" layoutX="72.0" layoutY="305.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="48.0" text="0" />
+      <Button fx:id="btnAllClear" layoutX="12.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="108.0" text="AC" />
+      <Button fx:id="btnEquals" layoutX="135.0" layoutY="365.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="48.0" prefWidth="108.0" text="=" />
+   </children>
+</Pane>
